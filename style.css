@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+html,body{
+    height:100%;
+    color: #fff;
+    background-color: #000;
+}
+
+.logo {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 30px
+    user-select: none;
+}
+
+.logo b {
+    font-family: "Dancing Script", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19vh;
+}
+
+.desc {
+    text-align:center;
+    font-family:sans-serif;
+    font-size:14px;
+    margin-top: 30px;
+}
+
+.contact-btn-wrapper {
+    display:flex;
+    margin:auto;
+    flex-direction: column;
+}
+
+
+.contact-btn {
+    clear:both;
+    color:#fff;
+    border:2px solid;
+    border-radius:3px;
+    text-align:center;
+    text-decoration:none;
+    display:block;
+    font-family:sans-serif;
+    font-size:14px;
+    width:13em;
+    padding:5px 10px;
+    font-weight:600;
+    margin: 20px auto 0 auto;
+    background:rgba(0,0,0,0.2);
+    box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
+    opacity:0.4
+}
+
+.contact-btn:hover
+{
+    color:#fff;
+    opacity:1
+}
+
